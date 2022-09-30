@@ -1,0 +1,69 @@
+/*
+
+[ ] Crie 5 objetos nesse formato{ nome: "" idade:"" sexo:"" profissão: "" nacionalidade:"" }
+Ao rodar o programa, deve imprimir se a pessoa é aprovada ou não no processo ,
+a pessoa deve ser maior de idade e brasileira para ser aprovada.
+Faça um programa onde os jurados vão dar a explicação para cada nota dada.
+ São permitidas notas de 0 a 10. Cada nota deve conter uma mensagem diferente.
+[ ] Faça um programa onde leia um numero e diga se ele é par ou impar.
+[ ] Faça um programa onde leia um número e diga se ele é: - ímpar, - par, - é
+ um número primo e impar, - é par e divisível por 5.
+[ ] Faça um programa onde ele leia 4 números. Em cada caso, ele deve retornar a 
+mensagem condizente: - Todos os números são impares => TODOS OS NÚMEROS SÃO IMPARES 
+- Todos os números são pares => TODOS OS NÚMEROS SÃO PARES. Em caso negativo dos casos a cima, 
+colocar uma mensagem => Há números pares e ímpares.*/
+//1-Faça um programa que compare um número com 10 e imprime na tela 
+/*
+const number = 7
+if (number > 10) {
+    console.log("O numero é maior que 10 ")
+}
+else if (number < 10) {
+    console.log("O numero é menor 10 ")
+} else{
+    console.log("O numero é igual  10 ")
+}*/
+//2- Faça um programa que verifica se uma pessoa é brasileira ou não. // DEVE SER UM OBJETO
+/*const nacionalidade={
+    nationality:"Brasileiro"
+}
+if(nacionalidade.nationality === "Brasileiro"){
+    console.log("Vocé é Brasileiro")
+
+}else{
+    console.log("Você é estrangeiro")
+}*/
+//3-Faça um programa que gere um número aleatório entre 1 e 10, esse número é o número 'ganhador'
+/*
+const numberRandom = Math.floor(Math.random() * (10 - 1) + 1)
+const winningNumber = Math.floor(Math.random() * (10 - 1) + 1)
+if (numberRandom === winningNumber) {
+    console.log("Você ganhou")
+} else {
+    console.log("Você perdeu")
+}
+*/
+//4-[ ] Faça um programa que receba 3 números inteiros, e deve imprimir, qual é o maior, qual é o menor.
+/*const firstNumber = 555
+const seccondtNumber = 60
+const thirdNumber = 88
+if (firstNumber > seccondtNumber && firstNumber > thirdNumber) {
+    console.log(`O primeiro número ${firstNumber} é o maior `)
+
+}
+else if (seccondtNumber > firstNumber && seccondtNumber > thirdNumber) {
+    console.log(`O segundo número ${seccondtNumber} é o maior `)
+
+} else {
+    console.log(`O terceiro número ${thirdNumber} é o maior `)
+}
+if (firstNumber < seccondtNumber && firstNumber < thirdNumber) {
+    console.log(`O primeiro número ${firstNumber} é o menor `)
+
+}
+else if (seccondtNumber < firstNumber && seccondtNumber < thirdNumber) {
+    console.log(`O segundo número ${seccondtNumber} é o menor `)
+
+} else {
+    console.log(`O terceiro número ${thirdNumber} é o menor`)
+}*/
