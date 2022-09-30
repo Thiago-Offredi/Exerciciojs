@@ -1,17 +1,4 @@
-/*
 
-[ ] Crie 5 objetos nesse formato{ nome: "" idade:"" sexo:"" profissão: "" nacionalidade:"" }
-Ao rodar o programa, deve imprimir se a pessoa é aprovada ou não no processo ,
-a pessoa deve ser maior de idade e brasileira para ser aprovada.
-Faça um programa onde os jurados vão dar a explicação para cada nota dada.
- São permitidas notas de 0 a 10. Cada nota deve conter uma mensagem diferente.
-[ ] Faça um programa onde leia um numero e diga se ele é par ou impar.
-[ ] Faça um programa onde leia um número e diga se ele é: - ímpar, - par, - é
- um número primo e impar, - é par e divisível por 5.
-[ ] Faça um programa onde ele leia 4 números. Em cada caso, ele deve retornar a 
-mensagem condizente: - Todos os números são impares => TODOS OS NÚMEROS SÃO IMPARES 
-- Todos os números são pares => TODOS OS NÚMEROS SÃO PARES. Em caso negativo dos casos a cima, 
-colocar uma mensagem => Há números pares e ímpares.*/
 //1-Faça um programa que compare um número com 10 e imprime na tela 
 /*
 const number = 7
@@ -66,4 +53,109 @@ else if (seccondtNumber < firstNumber && seccondtNumber < thirdNumber) {
 
 } else {
     console.log(`O terceiro número ${thirdNumber} é o menor`)
+}*/
+//5-Crie 5 objetos nesse formato{ nome: "" idade:"" sexo:"" profissão: "" nacionalidade:"" }
+//Ao rodar o programa, deve imprimir se a pessoa é aprovada ou não no processo ,
+//a pessoa deve ser maior de idade e brasileira para ser aprovada.
+
+/*const person0={
+    name:"Thiago",
+    age:28,
+    sex:"Masculino",
+    profession:"Programador",
+    nationality:"Brasileir"
+}
+if(person0.age >=18 && person0.nationality==="Brasileiro" ||person0.nationality==="Brasileira"){
+    console.log("Aprovada")
+}else{
+    console.log("Não atende aos requesitos")
+}*/
+/*6-Faça um programa onde os jurados vão dar a explicação para cada nota dada.
+ São permitidas notas de 0 a 10. Cada nota deve conter uma mensagem diferente.*/
+/*const Notas = 10
+switch (Notas) {
+    case 0:
+        console.log("Você foi muito mal ")
+        break;
+    case 1:
+        console.log("Se esforce mais ")
+        break;
+    case 2:
+        console.log("Treine mais ")
+        break;
+    case 3:
+        console.log("Volte no proximo ano")
+        break;
+    case 4:
+        console.log("Tente na proxima copa ")
+        break;
+    case 5:
+        console.log("Mais foco da proxima vez ")
+        break;
+    case 6:
+        console.log("Voce alcançou a média")
+        break;
+    case 7:
+        console.log("Voce pode melhorar mais")
+        break;
+    case 8:
+        console.log("Parabéns")
+        break;
+    case 9:
+        console.log("Quase chegou aos 10 ")
+        break;
+    case 10:
+        console.log("Parabens Você foi muito bem ")
+        break;
+    default: 
+    console.log("nota invalida apenas de 0 a 10")
+        break;
+}
+/*
+
+
+/*7-[ ] Faça um programa onde leia um numero e diga se ele é par ou impar.*/
+/*const number = 235
+if(number %2 ===0){
+    console.log("Par")
+
+}else{
+console.log("Impar")
+}*/
+/*7-Faça um programa onde leia um número e diga se ele é: - ímpar, - par, - é
+ um número primo e impar, - é par e divisível por 5.*/
+/*const number = 7
+if (number % 2 === 0) {
+    if (number % 5 === 0)
+        console.log("O número é par e divisivel por 5")
+    else console.log("O número é par e não é divisivel por 5")
+} else {
+    for (let i = 2; i < number; i++)
+        if (number % i === 0){
+            console.log("O numero é impar porem não é primo")
+            break
+        }else if(i ===number -1){
+                console.log("Ele é um numero primo")
+        }
+
+}
+*/
+/*8- Faça um programa onde ele leia 4 números. Em cada caso, ele deve retornar a 
+mensagem condizente: - Todos os números são impares => TODOS OS NÚMEROS SÃO IMPARES 
+- Todos os números são pares => TO ] DOS OS NÚMEROS SÃO PARES. Em caso negativo dos casos a cima, 
+colocar uma mensagem => Há números pares e ímpares.*/
+
+/*const numberOne = 12
+const numberTwo = 17
+const numberThree = 11
+const numberFour = 19
+if(numberOne %2 ===0 && numberTwo %2 ===0 && numberThree %2 ===0 && numberFour %2 ===0){
+    console.log("Todos os números são pares")
+
+}else if((numberOne %2 !==0 && numberTwo %2 !==0 && numberThree %2 !==0 && numberFour %2 !==0)){
+    console.log("Todos os números são impares")
+
+}
+else{
+    console.log("Há números pares e ímpares")
 }*/
